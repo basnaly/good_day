@@ -1,0 +1,90 @@
+.background {
+  display: flex;
+  width: 100%; 
+}
+
+.photo {
+  background-image: url("./cats.jpg");
+  background-size: cover;
+  background-position: center right;
+  width: 1010px;
+  height: 630px;
+}
+
+.buttons {
+  position: fixed;
+}
+
+.div-buttons{
+  position: absolute;
+}
+
+.button-first {
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+
+.button-second {
+  position: fixed;
+  top: 80px;
+  left: 500px;
+}
+
+.button-third {
+  position: fixed;
+  top: 300px;
+  left: 800px;
+}
+
+.button-forth {
+  position: fixed;
+  top: 0;
+  left: 490px;
+  margin: 20px;
+  visibility: hidden;
+}
+
+.buttons i {
+  padding: 0 5px;
+}
+
+.icon-first {
+  font-size: 20px;
+}
+
+.icon-second {
+  font-size: 20px;
+}
+
+.icon-third {
+  font-size: 20px;
+}
+
+.suprise {
+  position: fixed;
+  top: 130px;
+  left: 400px;
+  width: 350px;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 38px;
+  background-color: #006a;
+  visibility: hidden;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  text-align: center;
+  color: yellow;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+}
+
+.me {
+  position: fixed;
+  width: 60px;
+  bottom: 0;
+  right: 0;
+}
